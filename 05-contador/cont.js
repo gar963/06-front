@@ -35,7 +35,7 @@ function listimpar(quantidade) {
     console.log(impar)
 }
 
-function criarlinha(params) {
+function criarlinha(num, par, impar, multi5, pot2) {
     
 }
 
