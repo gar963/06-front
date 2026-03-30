@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Tabuada Estendida</title>
   <link rel="stylesheet" href="style.css"/>
+  <script src="./tabu.js" defer></script>
 </head>
 <body>
 
@@ -20,7 +21,7 @@
       <input id="numero" type="number" placeholder="Ex: 7"/>
     </div>
 
-    <button>Gerar Tabuada</button>
+    <button onclick="mostrar()">Gerar Tabuada</button>
 
     <div class="resultado">
       <p class="resultado-titulo">Resultado</p>
@@ -37,11 +38,11 @@
           </thead>
           <tbody>
             <tr>
-              <td>1</td>
-              <td>8</td>
-              <td>6</td>
-              <td>7</td>
-              <td>7.00</td>
+              <td id="numb"></td>
+              <td id="soma"></td>
+              <td id="subtrai"></td>
+              <td id="multi"></td>
+              <td id="dividir"></td>
             </tr>
           </tbody>
         </table>

@@ -61,10 +61,6 @@ function listpoten(quantidade) {
     return potenci
 }
 
-function criarlinha(num, par, impar, multi5, pot2) {
-    
-}
-
 function contador() {
     const quantidade = Number(document.getElementById('numero').value)
 
